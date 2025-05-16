@@ -1,0 +1,59 @@
+body {
+  background-image: url(./images/skyrim-wilderness.jpg);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #1a1a1a; */
+}
+
+.book-background {
+  background-image: url(../odin-recipes/images/skyrim-journal-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 90%;
+  max-width: 1000px;
+  aspect-ratio: 16 / 9; /* Automatically handles height based on width */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+
+.book-text {
+  width: 38%;
+  height: 90%;
+  overflow-y: auto;
+  margin-right: 18%;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  line-height: 1.5;
+  font-family: "Georgia", serif;
+  color: #2c1608;
+}
+
+.book-text img {
+  width: 45%;
+}
+ 
+.book-text ul {
+  list-style: none;
+}
+
+.book-text ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-text ul li img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: contain;
+  margin-right: 0.5rem;
+}
