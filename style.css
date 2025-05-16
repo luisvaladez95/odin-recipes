@@ -47,13 +47,9 @@ body {
 .book-text ul li {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .book-text ul li img {
-  width: 1.5rem;
-  height: 1.5rem;
-  object-fit: contain;
-  margin-right: 0.5rem;
+  width: 15%;
 }
